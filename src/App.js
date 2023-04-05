@@ -19,7 +19,7 @@ function App() {
           />
 
     <LinkedIn
-      clientId="86vhj2q7ukf83q"
+      clientId="86r38dzalbkm9o"
       redirectUri={`${window.location.origin}/linkedin`}
       onSuccess={(code) => {
         console.log(code);
